@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 1
+  m_UseShadowmask: 0
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -964,6 +964,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: DaySwitcher
       objectReference: {fileID: 0}
+    - target: {fileID: 3601327984591235619, guid: db1038d34f4dd1545b9c367f50b7064c,
+        type: 3}
+      propertyPath: calendarText
+      value: 
+      objectReference: {fileID: 1770752396}
     - target: {fileID: 5173837722827092759, guid: db1038d34f4dd1545b9c367f50b7064c,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1021,28 +1026,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: db1038d34f4dd1545b9c367f50b7064c, type: 3}
---- !u!1 &3601327984591235618 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2453927626121386081, guid: db1038d34f4dd1545b9c367f50b7064c,
+--- !u!114 &3601327984591235619 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3601327984591235619, guid: db1038d34f4dd1545b9c367f50b7064c,
     type: 3}
   m_PrefabInstance: {fileID: 3601327984591235617}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &3601327984591235619
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3601327984591235618}
+  m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f23cfd90c8c4dd84bbda9ee95ccf1cb2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  days:
-  - date: 14 sierpnia
-  - date: 15 sierpnia
-  - date: 16 sierpnia
-  - date: 18 sierpnia
-  - date: 19 sierpnia
-  calendarText: {fileID: 1770752396}
