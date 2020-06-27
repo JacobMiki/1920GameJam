@@ -1217,6 +1217,8 @@ PrefabInstance:
         type: 3}
       propertyPath: _newDayEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
+      propertyPath: _daySummary
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 5173837722827092759, guid: db1038d34f4dd1545b9c367f50b7064c,
         type: 3}
