@@ -288,9 +288,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b5ed7f44ac4e9545b293e1da2ebe164, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _aliesText: {fileID: 8604060752926506285}
+  _alliesText: {fileID: 8604060752926506285}
   _enemiesText: {fileID: 2198821105249380604}
-  _teritoryText: {fileID: 3114660419403676241}
+  _territoryText: {fileID: 3114660419403676241}
 --- !u!1 &2050306920485174522
 GameObject:
   m_ObjectHideFlags: 0
