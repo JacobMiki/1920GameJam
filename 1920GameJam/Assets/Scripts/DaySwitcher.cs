@@ -1,18 +1,13 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using GameJam1920.Assets.Scripts.Data;
 using UnityEngine;
 
 namespace GameJam1920.Assets.Scripts
 {
     public class DaySwitcher : MonoBehaviour
     {
-        [Serializable]
-        struct Day
-        {
-            public string date;
-        }
-
         [SerializeField] private Day[] days;
         [SerializeField] private TMPro.TextMeshPro calendarText;
         private int currentDay = 0;
@@ -24,7 +19,7 @@ namespace GameJam1920.Assets.Scripts
 
         private void SetCalendarDate()
         {
-            calendarText.text = days[currentDay].date;
+            calendarText.text = days[currentDay].Date;
         }
 
         public void NextDay()

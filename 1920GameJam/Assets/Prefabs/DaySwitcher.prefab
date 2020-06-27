@@ -9,6 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5173837722827092759}
+  - component: {fileID: 3601327984591235619}
   m_Layer: 0
   m_Name: DaySwitcher
   m_TagString: Untagged
@@ -30,3 +31,22 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3601327984591235619
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2453927626121386081}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f23cfd90c8c4dd84bbda9ee95ccf1cb2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  days:
+  - {fileID: 11400000, guid: 941ca7b1c654efd4c9f7b0cd73f834ee, type: 2}
+  - {fileID: 11400000, guid: 99f7168982fa4684faf183e95d6fa46b, type: 2}
+  - {fileID: 11400000, guid: 9aaf69ab57c4aac488638b72640b0bc0, type: 2}
+  - {fileID: 11400000, guid: 0eb7f227fcaadb547a53e14f678f381c, type: 2}
+  - {fileID: 11400000, guid: ddd7c8a72e936d44bb6331821b676465, type: 2}
+  calendarText: {fileID: 0}
