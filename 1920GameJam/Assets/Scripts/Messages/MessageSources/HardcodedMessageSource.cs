@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,17 +10,17 @@ namespace GameJam1920.Assets.Scripts.Messages.MessageSources
 {
     public class HardcodedMessageSource : MonoBehaviour, IMessageSource
     {
-        [SerializeField] private HardcodedMessages _messages;
+        private List<MessageContent> _messages;
         private List<MessageContent> _discarded = new List<MessageContent>();
         public MessageContent GetMessage(bool correct)
         {
-            var message = _messages.Messages.FirstOrDefault(m => m.IsCorrect == correct);
+            var message = _messages.FirstOrDefault(m => m.IsCorrect == correct);
 
             if (message == null)
             {
-                _messages.Messages.AddRange(_discarded);
+                _messages.AddRange(_discarded);
                 _discarded.Clear();
-                message = _messages.Messages.FirstOrDefault(m => m.IsCorrect == correct);
+                message = _messages.FirstOrDefault(m => m.IsCorrect == correct);
                 if (message == null)
                 {
                     return null;
@@ -28,9 +28,22 @@ namespace GameJam1920.Assets.Scripts.Messages.MessageSources
             }
 
             _discarded.Add(message);
-            _messages.Messages.Remove(message);
+            _messages.Remove(message);
 
             return message;
+        }
+
+        public void SetupSource(MessageData messageData)
+        {
+            var hardcodedMessages = messageData as HardcodedMessages;
+            if (hardcodedMessages == null)
+            {
+                Debug.LogError("Wrong message data format for this source");
+                return;
+            }
+
+            _messages = new List<MessageContent>(hardcodedMessages.Messages);
+            _messages.OrderBy(message => UnityEngine.Random.value);
         }
     }
 }

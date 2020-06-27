@@ -1,4 +1,5 @@
-﻿using GameJam1920.Assets.Scripts.Messages.MessageSources;
+using GameJam1920.Assets.Scripts.Data;
+using GameJam1920.Assets.Scripts.Messages.MessageSources;
 using UnityEngine;
 
 namespace GameJam1920.Assets.Scripts.Messages
@@ -13,6 +14,17 @@ namespace GameJam1920.Assets.Scripts.Messages
         {
             _messageSource = GetComponent<IMessageSource>();
         }
+
+        private void SetupSource(MessageData messageData)
+        {
+            _messageSource.SetupSource(messageData);
+        }
+
+        public void OnNewDay(Day day)
+        {
+            SetupSource(day.MessageData);
+        }
+
         public void SpawnMessage(bool correct)
         {
             Debug.Log("Spawning message");

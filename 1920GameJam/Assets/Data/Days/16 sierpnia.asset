@@ -13,3 +13,6 @@ MonoBehaviour:
   m_Name: 16 sierpnia
   m_EditorClassIdentifier: 
   Date: 16 sierpnia
+  CorrectMessages: 3
+  IncorrectMessages: 7
+  MessageData: {fileID: 11400000, guid: a6a65b6c44e4b8b4596e76973d0e74ee, type: 2}

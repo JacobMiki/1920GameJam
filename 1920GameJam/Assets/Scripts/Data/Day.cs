@@ -1,5 +1,6 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
+using GameJam1920.Assets.Scripts.Messages.MessageSources;
 using UnityEngine;
 
 namespace GameJam1920.Assets.Scripts.Data
@@ -8,5 +9,21 @@ namespace GameJam1920.Assets.Scripts.Data
     public class Day : ScriptableObject
     {
         public string Date;
+
+        [Header("Messages")]
+        public int CorrectMessages;
+        public int IncorrectMessages;
+        public MessageData MessageData;
+
+        [Header("Base scores")]
+        public int EnemyPeopleLoss;
+        public int FriendlyPeopleLoss;
+        public int TeritoryChange;
+
+        [Header("Scores")]
+        public int RightAnswerPeopleChange;
+        public int RightAnswerTeritoryChange;
+        public int WrongAnswerPeopleChange;
+        public int WrongAnswerTeritoryChange;
     }
 }

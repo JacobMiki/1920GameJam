@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1089308553961551182}
   - component: {fileID: 1089308553961551183}
-  - component: {fileID: 1089308553961551168}
+  - component: {fileID: 7614270276772793584}
   m_Layer: 0
   m_Name: Message Spawner
   m_TagString: Untagged
@@ -46,7 +46,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _messagePrefab: {fileID: 1150185187550648974, guid: b29d7b51b3a3e3a4291b4a9b8039a0ae,
     type: 3}
---- !u!114 &1089308553961551168
+--- !u!114 &7614270276772793584
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -55,6 +55,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 1089308553961551169}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ac0bdc1c87823db45af48816cd2d937e, type: 3}
+  m_Script: {fileID: 11500000, guid: 76befdb8fe1e3f749a5cf9d93881a9ea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
