@@ -15,6 +15,7 @@ namespace GameJam1920.Assets.Scripts
 
     public class DaySwitcher : MonoBehaviour
     {
+        [SerializeField] private DaySummary _daySummary;
         [SerializeField] private Day[] days;
         [SerializeField] private TMPro.TextMeshPro calendarText;
 
