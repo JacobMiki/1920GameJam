@@ -83,6 +83,21 @@ PrefabInstance:
       propertyPath: m_WasSpriteAssigned
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2776736182757922267, guid: 2b509dc3e3c6f3c44924376495ce0b9c,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 0.990566
+      objectReference: {fileID: 0}
+    - target: {fileID: 2776736182757922267, guid: 2b509dc3e3c6f3c44924376495ce0b9c,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 0.9429967
+      objectReference: {fileID: 0}
+    - target: {fileID: 2776736182757922267, guid: 2b509dc3e3c6f3c44924376495ce0b9c,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 0.85506403
+      objectReference: {fileID: 0}
     - target: {fileID: 2776736182757922268, guid: 2b509dc3e3c6f3c44924376495ce0b9c,
         type: 3}
       propertyPath: m_SpriteTilingProperty.pivot.x
