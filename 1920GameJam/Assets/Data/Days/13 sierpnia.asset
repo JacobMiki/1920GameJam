@@ -21,6 +21,7 @@ MonoBehaviour:
   - {fileID: 4890482383130453402, guid: 1c89b5483484d28409b6cf84a947ccd6, type: 3}
   - {fileID: 4890482383130453402, guid: 0eb07ec3ef061c348a768f4891468e81, type: 3}
   - {fileID: 4890482383130453402, guid: 94c5a95d32032ff4d999e64cd6075610, type: 3}
+  - {fileID: 4890482383130453402, guid: c2253ecd1a2e7ad4c9dad23ae91d7b72, type: 3}
   EnemyPeopleLoss: 240
   FriendlyPeopleLoss: 150
   TeritoryChange: 20
@@ -28,3 +29,11 @@ MonoBehaviour:
   RightAnswerTeritoryChange: 125
   WrongAnswerPeopleChange: 100
   WrongAnswerTeritoryChange: 65
+  Title: '13 sierpnia 1920
+
+    Bitwa pod Ossowem'
+  Description: "Bitwa rozpocz\u0119\u0142a si\u0119 w godzinach popo\u0142udniowych.\r\n\r\nBolszewicy
+    pod dow\xF3dctwem Witwota Putny staraj\u0105 si\u0119 dotrze\u0107 do Warszawy.
+    \r\n\r\nDzi\u0119ki Twojej pomocy i dzielno\u015Bci polskiego wojska dowodzonego
+    przez Stanis\u0142awa Burthardta Buhackiego, Polska ma szans\u0119 odnie\u015B\u0107
+    sw\xF3j pierwszy sukces w Bitwie Warszawskiej."

@@ -21,6 +21,7 @@ MonoBehaviour:
   - {fileID: 631098396164760215, guid: b9025563f4cbfb748b13251f33dc5641, type: 3}
   - {fileID: 1696420246241843217, guid: 940acea1e5be10248bd12e6cedc65d56, type: 3}
   - {fileID: 1161751425076605015, guid: 2605ba5085628cc4f81fe4a790328a8e, type: 3}
+  - {fileID: 4890482383130453402, guid: 999b2c03bb0809640952ce2c5e77fce1, type: 3}
   EnemyPeopleLoss: 700
   FriendlyPeopleLoss: 600
   TeritoryChange: 80
@@ -28,3 +29,11 @@ MonoBehaviour:
   RightAnswerTeritoryChange: 125
   WrongAnswerPeopleChange: 100
   WrongAnswerTeritoryChange: 65
+  Title: '14 sierpnia 1920
+
+    Bitwa o Borkowo'
+  Description: "Wi\u0119kszo\u015B\u0107 walcz\u0105cych po stronie Polskiej w tej
+    bitwie to ochotnicy. W\u015Br\xF3d \u017Co\u0142nierzy s\u0105 mi\u0119dzy innymi
+    m\u0142odzie\u0144cy gimnazjalni po zaledwie dwutygodniowym szkoleniu.\r\n\r\nCzy
+    dzi\u0119ki Tobie, ma\u0142o do\u015Bwiadczone wojsko pod dow\xF3dztwem Kazimierza
+    Rumsza zwyci\u0119\u017Cy z Bolszewikami?"

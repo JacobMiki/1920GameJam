@@ -30,5 +30,11 @@ namespace GameJam1920.Assets.Scripts.Data
         public int WrongAnswerPeopleChange;
         public int WrongAnswerTeritoryChange;
 
+        [Header("Info screen")]
+        [TextArea]
+        public string Title;
+        [TextArea]
+        public string Description;
+
     }
 }

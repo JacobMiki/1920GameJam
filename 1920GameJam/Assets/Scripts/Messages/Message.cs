@@ -31,5 +31,10 @@ namespace GameJam1920.Assets.Scripts.Messages
         {
             return _content.IsCorrect;
         }
+
+        public ErrorCategory GetErrorCategory()
+        {
+            return _content.ErrorCategory;
+        }
     }
 }

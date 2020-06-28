@@ -5,6 +5,7 @@ using GameJam1920.Assets.Scripts.Data;
 using GameJam1920.Assets.Scripts.Messages;
 using UnityEngine;
 using UnityEngine.Events;
+using UnityEngine.SceneManagement;
 
 namespace GameJam1920.Assets.Scripts
 {
@@ -96,10 +97,11 @@ namespace GameJam1920.Assets.Scripts
             currentDay++;
             if (currentDay >= days.Length)
             {
-                Debug.Log("THE END");
+                SceneManager.LoadScene(0);
                 return;
             }
             SetCalendarDate();
+            SpawnAids();
 
             _preDayEvent.Invoke(days[currentDay]);
         }
@@ -123,7 +125,6 @@ namespace GameJam1920.Assets.Scripts
             }
             state = DaySwitcherState.DAY;
 
-            SpawnAids();
             _newDayEvent.Invoke(days[currentDay]);
         }
     }
