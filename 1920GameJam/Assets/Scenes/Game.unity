@@ -295,12 +295,6 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 0}
-    - target: {fileID: 362631189324648276, guid: 148d5029c4b49334191b7702ce1dec02,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: -8810237293698161337, guid: e0000029d8f3b044996e6ee7a922aea0,
-        type: 2}
     - target: {fileID: 858872890311026539, guid: 148d5029c4b49334191b7702ce1dec02,
         type: 3}
       propertyPath: m_textInfo.characterCount
@@ -435,23 +429,6 @@ PrefabInstance:
       value: 
       objectReference: {fileID: -8810237293698161337, guid: e0000029d8f3b044996e6ee7a922aea0,
         type: 2}
-    - target: {fileID: 2220243003181362968, guid: 148d5029c4b49334191b7702ce1dec02,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: -8810237293698161337, guid: e0000029d8f3b044996e6ee7a922aea0,
-        type: 2}
-    - target: {fileID: 2505187249464441729, guid: 148d5029c4b49334191b7702ce1dec02,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 2796899472937187246, guid: 148d5029c4b49334191b7702ce1dec02,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: -8810237293698161337, guid: e0000029d8f3b044996e6ee7a922aea0,
-        type: 2}
     - target: {fileID: 3114660419403676241, guid: 148d5029c4b49334191b7702ce1dec02,
         type: 3}
       propertyPath: m_textInfo.characterCount
@@ -489,23 +466,11 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 0}
-    - target: {fileID: 3392736368992742964, guid: 148d5029c4b49334191b7702ce1dec02,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: -8810237293698161337, guid: e0000029d8f3b044996e6ee7a922aea0,
-        type: 2}
     - target: {fileID: 4241741815726349898, guid: 148d5029c4b49334191b7702ce1dec02,
         type: 3}
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 0}
-    - target: {fileID: 4713395943007204051, guid: 148d5029c4b49334191b7702ce1dec02,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: -8810237293698161337, guid: e0000029d8f3b044996e6ee7a922aea0,
-        type: 2}
     - target: {fileID: 4830119982809762460, guid: 148d5029c4b49334191b7702ce1dec02,
         type: 3}
       propertyPath: m_Color.r
@@ -536,12 +501,6 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 0}
-    - target: {fileID: 6787060921105511323, guid: 148d5029c4b49334191b7702ce1dec02,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: -8810237293698161337, guid: e0000029d8f3b044996e6ee7a922aea0,
-        type: 2}
     - target: {fileID: 6963403925744508628, guid: 148d5029c4b49334191b7702ce1dec02,
         type: 3}
       propertyPath: m_textInfo.characterCount
@@ -636,12 +595,6 @@ PrefabInstance:
       propertyPath: m_sharedMaterial
       value: 
       objectReference: {fileID: 0}
-    - target: {fileID: 7452672235936326404, guid: 148d5029c4b49334191b7702ce1dec02,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: -8810237293698161337, guid: e0000029d8f3b044996e6ee7a922aea0,
-        type: 2}
     - target: {fileID: 8236842519699967212, guid: 148d5029c4b49334191b7702ce1dec02,
         type: 3}
       propertyPath: m_textInfo.characterCount
@@ -1159,12 +1112,6 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 0}
-    - target: {fileID: 362631189324648276, guid: 148d5029c4b49334191b7702ce1dec02,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: -8810237293698161337, guid: e0000029d8f3b044996e6ee7a922aea0,
-        type: 2}
     - target: {fileID: 858872890311026539, guid: 148d5029c4b49334191b7702ce1dec02,
         type: 3}
       propertyPath: m_fontAsset
@@ -1274,23 +1221,6 @@ PrefabInstance:
       value: 
       objectReference: {fileID: -8810237293698161337, guid: e0000029d8f3b044996e6ee7a922aea0,
         type: 2}
-    - target: {fileID: 2220243003181362968, guid: 148d5029c4b49334191b7702ce1dec02,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: -8810237293698161337, guid: e0000029d8f3b044996e6ee7a922aea0,
-        type: 2}
-    - target: {fileID: 2505187249464441729, guid: 148d5029c4b49334191b7702ce1dec02,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 2796899472937187246, guid: 148d5029c4b49334191b7702ce1dec02,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: -8810237293698161337, guid: e0000029d8f3b044996e6ee7a922aea0,
-        type: 2}
     - target: {fileID: 3114660419403676241, guid: 148d5029c4b49334191b7702ce1dec02,
         type: 3}
       propertyPath: m_fontAsset
@@ -1308,23 +1238,11 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 0}
-    - target: {fileID: 3392736368992742964, guid: 148d5029c4b49334191b7702ce1dec02,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: -8810237293698161337, guid: e0000029d8f3b044996e6ee7a922aea0,
-        type: 2}
     - target: {fileID: 4241741815726349898, guid: 148d5029c4b49334191b7702ce1dec02,
         type: 3}
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 0}
-    - target: {fileID: 4713395943007204051, guid: 148d5029c4b49334191b7702ce1dec02,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: -8810237293698161337, guid: e0000029d8f3b044996e6ee7a922aea0,
-        type: 2}
     - target: {fileID: 5124554204635654596, guid: 148d5029c4b49334191b7702ce1dec02,
         type: 3}
       propertyPath: m_Mesh
@@ -1335,17 +1253,16 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 5914104318829451397, guid: 148d5029c4b49334191b7702ce1dec02,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6053771348658303666, guid: 148d5029c4b49334191b7702ce1dec02,
         type: 3}
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 0}
-    - target: {fileID: 6787060921105511323, guid: 148d5029c4b49334191b7702ce1dec02,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: -8810237293698161337, guid: e0000029d8f3b044996e6ee7a922aea0,
-        type: 2}
     - target: {fileID: 6963403925744508628, guid: 148d5029c4b49334191b7702ce1dec02,
         type: 3}
       propertyPath: m_fontAsset
@@ -1390,12 +1307,6 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 7452672235936326404, guid: 148d5029c4b49334191b7702ce1dec02,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: -8810237293698161337, guid: e0000029d8f3b044996e6ee7a922aea0,
-        type: 2}
     - target: {fileID: 8236842519699967212, guid: 148d5029c4b49334191b7702ce1dec02,
         type: 3}
       propertyPath: m_textInfo.characterCount
@@ -1416,12 +1327,6 @@ PrefabInstance:
       propertyPath: m_textInfo.pageCount
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 8236842519699967212, guid: 148d5029c4b49334191b7702ce1dec02,
-        type: 3}
-      propertyPath: m_fontAsset
-      value: 
-      objectReference: {fileID: 11400000, guid: e0000029d8f3b044996e6ee7a922aea0,
-        type: 2}
     - target: {fileID: 8236842519699967212, guid: 148d5029c4b49334191b7702ce1dec02,
         type: 3}
       propertyPath: m_sharedMaterial
