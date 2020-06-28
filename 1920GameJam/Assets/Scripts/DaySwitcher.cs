@@ -8,8 +8,20 @@ using UnityEngine.Events;
 
 namespace GameJam1920.Assets.Scripts
 {
+    public enum DaySwitcherState
+    {
+        PRE_DAY,
+        DAY,
+        END_DAY
+    }
+
     [System.Serializable]
     public class NewDayEvent : UnityEvent<Day>
+    {
+    }
+
+    [System.Serializable]
+    public class PreDayEvent : UnityEvent<Day>
     {
     }
 
@@ -18,21 +30,33 @@ namespace GameJam1920.Assets.Scripts
         [SerializeField] private DaySummary _daySummary;
         [SerializeField] private Day[] days;
         [SerializeField] private TMPro.TextMeshPro calendarText;
+        [SerializeField] private Transform aidsContainer;
 
+        [SerializeField] private PreDayEvent _preDayEvent;
         [SerializeField] private NewDayEvent _newDayEvent;
+        [SerializeField] private UnityEvent _dayEndEvent;
 
-        private int currentDay = 0;
+        private int currentDay = -1;
+        public DaySwitcherState state { get; private set; } = DaySwitcherState.END_DAY;
 
         private void Start()
         {
-            SetCalendarDate();
+            if (_preDayEvent == null)
+            {
+                _preDayEvent = new PreDayEvent();
+            }
 
             if (_newDayEvent == null)
             {
                 _newDayEvent = new NewDayEvent();
             }
 
-            _newDayEvent.Invoke(days[currentDay]);
+            if (_dayEndEvent == null)
+            {
+                _dayEndEvent = new UnityEvent();
+            }
+
+            PreDay();
         }
 
         private void SetCalendarDate()
@@ -40,15 +64,63 @@ namespace GameJam1920.Assets.Scripts
             calendarText.text = days[currentDay].Date;
         }
 
-        public void NextDay()
+        private void SpawnAids()
         {
+            var children = new List<GameObject>();
+            foreach (Transform child in aidsContainer)
+            {
+                children.Add(child.gameObject);
+            }
+            children.ForEach(child => Destroy(child));
+
+            var day = days[currentDay];
+
+            foreach (var aid in day.aidPrefabs)
+            {
+                Instantiate(aid, aidsContainer, true);
+            }
+
+        }
+
+        public void PreDay()
+        {
+            if (state != DaySwitcherState.END_DAY)
+            {
+                return;
+            }
+            state = DaySwitcherState.PRE_DAY;
+
             currentDay++;
-            if(currentDay>=days.Length)
+            if (currentDay >= days.Length)
             {
                 Debug.Log("THE END");
                 return;
             }
             SetCalendarDate();
+
+            _preDayEvent.Invoke(days[currentDay]);
+        }
+
+        public void EndDay()
+        {
+            if (state != DaySwitcherState.DAY)
+            {
+                return;
+            }
+            state = DaySwitcherState.END_DAY;
+
+            _dayEndEvent.Invoke();
+        }
+
+        public void NextDay()
+        {
+            if (state != DaySwitcherState.PRE_DAY)
+            {
+                return;
+            }
+            state = DaySwitcherState.DAY;
+
+            SpawnAids();
             _newDayEvent.Invoke(days[currentDay]);
         }
     }

@@ -15,6 +15,10 @@ namespace GameJam1920.Assets.Scripts.Data
         public int IncorrectMessages;
         public MessageData MessageData;
 
+        [Header("Values")]
+        public GameObject[] aidPrefabs;
+
+
         [Header("Base scores")]
         public int EnemyPeopleLoss;
         public int FriendlyPeopleLoss;
@@ -25,5 +29,6 @@ namespace GameJam1920.Assets.Scripts.Data
         public int RightAnswerTeritoryChange;
         public int WrongAnswerPeopleChange;
         public int WrongAnswerTeritoryChange;
+
     }
 }

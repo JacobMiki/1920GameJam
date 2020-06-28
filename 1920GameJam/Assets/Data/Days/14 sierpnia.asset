@@ -16,6 +16,8 @@ MonoBehaviour:
   CorrectMessages: 3
   IncorrectMessages: 7
   MessageData: {fileID: 11400000, guid: 59fdac324acd9124c84516332f577449, type: 2}
+  aidPrefabs:
+  - {fileID: 4890482383130453402, guid: 11e0553f7a470e04687ab49780f79d82, type: 3}
   EnemyPeopleLoss: 0
   FriendlyPeopleLoss: 0
   TeritoryChange: 0
