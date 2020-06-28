@@ -91,8 +91,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2908207373433841176}
   - component: {fileID: 7572448471809434137}
-  - component: {fileID: 6192589444435929229}
-  - component: {fileID: 1601057334094694031}
+  - component: {fileID: 3787750172983938563}
   m_Layer: 0
   m_Name: Message Sprite
   m_TagString: Untagged
@@ -158,14 +157,14 @@ SpriteRenderer:
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
-  m_DrawMode: 1
+  m_DrawMode: 0
   m_Size: {x: 5.705934, y: 3.0614712}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &6192589444435929229
+--- !u!114 &3787750172983938563
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -174,36 +173,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 839931145279744409}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 38f48a8d66b2adc46887f23a3a88ac01, type: 3}
+  m_Script: {fileID: 11500000, guid: 3b8548217f794e54ba11a6b049131483, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_ShadowGroup: 0
---- !u!114 &1601057334094694031
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 839931145279744409}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7db70e0ea77f5ac47a8f4565a9406397, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_ShadowGroup: 0
-  m_HasRenderer: 1
-  m_UseRendererSilhouette: 1
-  m_CastsShadows: 1
-  m_SelfShadows: 0
-  m_ApplyToSortingLayers: 000000007f4288799bafacf4
-  m_ShapePath:
-  - {x: -2, y: -1, z: 0}
-  - {x: 2, y: -1, z: 0}
-  - {x: 2, y: 1, z: 0}
-  - {x: -2, y: 1, z: 0}
-  m_ShapePathHash: 0
-  m_Mesh: {fileID: 0}
-  m_InstanceId: 29782
+  ShadowOffset: {x: 0.02, y: 0.02, z: 0.002}
+  ShadowColor: {r: 0, g: 0, b: 0, a: 0.7490196}
 --- !u!1 &1150185187550648974
 GameObject:
   m_ObjectHideFlags: 0
@@ -566,7 +540,7 @@ SpriteRenderer:
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
-  m_DrawMode: 1
+  m_DrawMode: 0
   m_Size: {x: 5.705934, y: 3.0614712}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
