@@ -47,8 +47,8 @@ MonoBehaviour:
     Date: 13 sierpnia
     Codeword: 
     CommandingOfficer: Witwot Putna
-    Order: "Oddzia\u0142 236 z wozem konnym przeprowadzi\u0107 na p\xF3\u0142noc
-      i wzmocni\u0107 oddzia\u0142 z tankietk\u0105."
+    Order: "Oddzia\u0142 236 z wozem konnym ma do\u0142\u0105czy\u0107 do oddzia\u0142u
+      z tankietk\u0105."
     IsCorrect: 1
     ErrorCategory: 0
   - Name: 6
