@@ -15,7 +15,7 @@ namespace GameJam1920.Assets.Scripts.Messages.MessageSources
                 CommandingOfficer = "Napoleon Bonaparte",
                 Order = correct ? "Prawdziwy rozkaz" : "Fałszywy rozkaz",
                 IsCorrect = correct,
-                ErrorCategory = correct ? null : "dummy",
+                ErrorCategory = ErrorCategory.CODE,
             };
         }
 

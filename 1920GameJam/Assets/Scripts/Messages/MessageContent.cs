@@ -3,6 +3,16 @@ using UnityEngine;
 
 namespace GameJam1920.Assets.Scripts.Messages
 {
+    public enum ErrorCategory
+    {
+        NONE,
+        OFFICER,
+        DAY,
+        CODE,
+        DIRECTION,
+        TROOP_TYPE,
+    }
+
     [Serializable]
     public class MessageContent
     {
@@ -19,6 +29,6 @@ namespace GameJam1920.Assets.Scripts.Messages
 
         public bool IsCorrect;
 
-        public string ErrorCategory;
+        public ErrorCategory ErrorCategory;
     }
 }
