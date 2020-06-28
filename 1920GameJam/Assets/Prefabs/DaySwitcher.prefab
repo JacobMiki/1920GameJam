@@ -45,7 +45,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _daySummary: {fileID: 0}
   days:
-  - {fileID: 11400000, guid: 941ca7b1c654efd4c9f7b0cd73f834ee, type: 2}
+  - {fileID: 11400000, guid: 94ff2c960330e1848bd8a0a0c1b3f841, type: 2}
   - {fileID: 11400000, guid: 99f7168982fa4684faf183e95d6fa46b, type: 2}
   - {fileID: 11400000, guid: 9aaf69ab57c4aac488638b72640b0bc0, type: 2}
   - {fileID: 11400000, guid: 0eb7f227fcaadb547a53e14f678f381c, type: 2}
@@ -93,4 +93,3 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  state: 0
