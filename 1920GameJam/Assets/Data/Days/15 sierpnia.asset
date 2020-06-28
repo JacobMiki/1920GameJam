@@ -29,3 +29,12 @@ MonoBehaviour:
   RightAnswerTeritoryChange: 50
   WrongAnswerPeopleChange: 100
   WrongAnswerTeritoryChange: 25
+  Title: '15 sierpnia 1920
+
+    Bitwa pod Radzyminem'
+  Description: "Bitwa ta, kt\xF3r\u0105 stocz\u0105 wojska polskie pod dow\xF3dctwem:
+    Jana Rz\u0105dkowskiego, J\xF3zef Haller i Franciszka Latiniak\r\nzostanie uznana
+    za jedn\u0105 z najkrwawszych i najci\u0119\u017Cszych w ca\u0142ych dziejach
+    walk  Polski z Rosj\u0105 Bolszewick\u0105.\r\n\r\nCzy uda Ci si\u0119 pomoc
+    w wykryciu, kt\xF3re bolszewickie rozkazy s\u0105 prawdziwe a kt\xF3re maj\u0105
+    by\u0107 tylko zmy\u0142k\u0105?"
