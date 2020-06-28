@@ -12,7 +12,6 @@ namespace GameJam1920.Assets.Scripts
 
         private void Start()
         {
-            Hide();
         }
 
         public void Show(Day day)
