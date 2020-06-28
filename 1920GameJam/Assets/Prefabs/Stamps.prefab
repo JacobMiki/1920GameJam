@@ -24,7 +24,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1526232134870902239}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.3554079, y: -0.36601138, z: -0.7209969}
+  m_LocalPosition: {x: -1.71, y: -3.38, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1526232133983249327}
@@ -47,12 +47,12 @@ PrefabInstance:
     - target: {fileID: 1571101884681097753, guid: b1b7a0330f0151343adb3981b8d09e8e,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.96
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1571101884681097753, guid: b1b7a0330f0151343adb3981b8d09e8e,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.84
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1571101884681097753, guid: b1b7a0330f0151343adb3981b8d09e8e,
         type: 3}
@@ -114,6 +114,27 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5338962151246369529, guid: b1b7a0330f0151343adb3981b8d09e8e,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -3360806814729818292, guid: a2c86dfc9e6ca8a4bbb2fbf0b59a6a23,
+        type: 3}
+    - target: {fileID: 6795149825027741625, guid: b1b7a0330f0151343adb3981b8d09e8e,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6795149825027741625, guid: b1b7a0330f0151343adb3981b8d09e8e,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 0.50980395
+      objectReference: {fileID: 0}
+    - target: {fileID: 6795149825027741625, guid: b1b7a0330f0151343adb3981b8d09e8e,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 0.2901961
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b1b7a0330f0151343adb3981b8d09e8e, type: 3}
 --- !u!4 &1526232133983249327 stripped
@@ -137,12 +158,12 @@ PrefabInstance:
     - target: {fileID: 1571101884681097753, guid: b1b7a0330f0151343adb3981b8d09e8e,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.76
+      value: 3.08
       objectReference: {fileID: 0}
     - target: {fileID: 1571101884681097753, guid: b1b7a0330f0151343adb3981b8d09e8e,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.84
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1571101884681097753, guid: b1b7a0330f0151343adb3981b8d09e8e,
         type: 3}
@@ -198,6 +219,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_SortingOrder
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1638377490298250799, guid: b1b7a0330f0151343adb3981b8d09e8e,
+        type: 3}
+      propertyPath: m_Name
+      value: TextSprite
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b1b7a0330f0151343adb3981b8d09e8e, type: 3}

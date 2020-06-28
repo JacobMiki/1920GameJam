@@ -1,4 +1,4 @@
-﻿using GameJam1920.Assets.Scripts.Messages;
+using GameJam1920.Assets.Scripts.Messages;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -11,6 +11,19 @@ namespace GameJam1920.Assets.Scripts
         public bool approved;
 
         private Vector2 mousePositionInWorldSpace;
+        private float duration=1;
+        private float durationTime;
+        private Vector3 startPosition;
+        private Vector3 endPosition;
+
+        private bool isMovingDown = false;
+        private bool isMoving = false;
+
+        private void Start()
+        {
+            startPosition = transform.position;
+            endPosition = transform.position + Vector3.down*.5f;
+        }
 
         public void SetMousePosiotion(InputAction.CallbackContext context)
         {
@@ -29,9 +42,28 @@ namespace GameJam1920.Assets.Scripts
 
             Collider2D stampfield = Physics2D.OverlapPoint(mousePositionInWorldSpace, LayerMask.GetMask("Stamp Field"));
             if (!stampfield) return;
-            stampfield.GetComponentInParent<StampField>().Sign(mousePositionInWorldSpace, stamp.GetComponent<Stamp>().approved);
+            if(!stampfield.GetComponentInParent<StampField>().Sign(mousePositionInWorldSpace, stamp.GetComponent<Stamp>().approved))return;
+            stamp.GetComponent<Stamp>().isMovingDown = true;
+            stamp.GetComponent<Stamp>().isMoving = true;
         }
 
+        void Update()
+        {
+            if (!isMoving) return;
 
+            if (Vector3.Distance(transform.position,endPosition)>0.01f &&isMovingDown)
+            {
+                transform.position = Vector3.MoveTowards(transform.position, endPosition, Time.deltaTime*5); 
+            }
+            else if (Vector3.Distance(transform.position, startPosition) > 0.01f)
+            {
+                isMovingDown = false;
+                transform.position = Vector3.MoveTowards(transform.position, startPosition, Time.deltaTime * 4);
+            }
+            else
+            {
+                isMoving = false;
+            }
+        }
     }
 }
