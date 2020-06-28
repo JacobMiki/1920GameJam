@@ -972,6 +972,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 94894097bedf85a4cb579e5e5f5d9bc3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  draggedShadowOffset: {x: 0.1, y: 0.1}
 --- !u!114 &730174368
 MonoBehaviour:
   m_ObjectHideFlags: 0
