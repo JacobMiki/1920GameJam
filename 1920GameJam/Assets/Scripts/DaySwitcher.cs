@@ -101,6 +101,7 @@ namespace GameJam1920.Assets.Scripts
                 return;
             }
             SetCalendarDate();
+            SpawnAids();
 
             _preDayEvent.Invoke(days[currentDay]);
         }
@@ -124,7 +125,6 @@ namespace GameJam1920.Assets.Scripts
             }
             state = DaySwitcherState.DAY;
 
-            SpawnAids();
             _newDayEvent.Invoke(days[currentDay]);
         }
     }

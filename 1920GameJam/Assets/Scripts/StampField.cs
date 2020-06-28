@@ -12,11 +12,13 @@ namespace GameJam1920.Assets.Scripts.Messages
         [SerializeField] private Transform _stampSign;
 
         private ScoreManager scoreManager;
+        private FeedbackSpawner feedbackSpawner;
         private bool _isSigned = false;
 
         private void Start()
         {
             scoreManager = FindObjectOfType<ScoreManager>();
+            feedbackSpawner = FindObjectOfType<FeedbackSpawner>();
         }
 
         public void Sign(Vector2 stampPosition, bool isApproved)
@@ -30,7 +32,12 @@ namespace GameJam1920.Assets.Scripts.Messages
 
             //animacja
 
-            scoreManager.UpdateScore(GetComponentInParent<Message>().GetIsCorrect(), isApproved);
+            var message = GetComponentInParent<Message>();
+            scoreManager.UpdateScore(message.GetIsCorrect(), isApproved);
+            if (message.GetIsCorrect() != isApproved)
+            {
+                feedbackSpawner.SpawnFeedback(message.GetErrorCategory());
+            }
         }
     }
 }
