@@ -36,6 +36,7 @@ namespace GameJam1920.Assets.Scripts
                 topItemZIndex -= 0.01f;
                 heldItem = movableItem.transform;
                 heldItemOffset = new Vector2(mousePositionInWorldSpace.x - heldItem.position.x, mousePositionInWorldSpace.y - heldItem.position.y);
+                idleShadowOffset = heldItem.GetComponentInChildren<DropShadow>().ShadowOffset;
             }
         }
 
