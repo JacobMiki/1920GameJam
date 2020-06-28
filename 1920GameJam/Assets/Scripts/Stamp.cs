@@ -45,6 +45,7 @@ namespace GameJam1920.Assets.Scripts
             if(!stampfield.GetComponentInParent<StampField>().Sign(mousePositionInWorldSpace, stamp.GetComponent<Stamp>().approved))return;
             stamp.GetComponent<Stamp>().isMovingDown = true;
             stamp.GetComponent<Stamp>().isMoving = true;
+            stamp.GetComponent<AudioSource>().Play();
         }
 
         void Update()

@@ -11,14 +11,19 @@ namespace GameJam1920.Assets.Scripts.Messages
 
         [SerializeField] private Transform _stampSign;
 
+        public AudioClip correct;
+        public AudioClip inCorrect;
+
         private ScoreManager scoreManager;
         private FeedbackSpawner feedbackSpawner;
+        private AudioSource audioSource;
         private bool _isSigned = false;
 
         private void Start()
         {
             scoreManager = FindObjectOfType<ScoreManager>();
             feedbackSpawner = FindObjectOfType<FeedbackSpawner>();
+            audioSource = GetComponentInParent<AudioSource>();
         }
 
         public bool Sign(Vector2 stampPosition, bool isApproved)
@@ -35,6 +40,11 @@ namespace GameJam1920.Assets.Scripts.Messages
             if (message.GetIsCorrect() != isApproved)
             {
                 feedbackSpawner.SpawnFeedback(message.GetErrorCategory());
+                audioSource.PlayOneShot(inCorrect);
+            }
+            else
+            {
+                audioSource.PlayOneShot(correct);
             }
             message.TriggerLeave();
             return true;
