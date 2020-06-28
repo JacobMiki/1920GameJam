@@ -16,6 +16,14 @@ namespace GameJam1920.Assets.Scripts.Messages
         [SerializeField] private TMPro.TextMeshPro _orderText;
 
         private MessageContent _content;
+        private DebugUI _tempDebugUI;
+        private Animator _animator;
+
+        private void Start()
+        {
+            _tempDebugUI = FindObjectOfType<DebugUI>();
+            _animator = GetComponent<Animator>();
+        }
 
         public void SetContent(MessageContent content)
         {
@@ -35,6 +43,16 @@ namespace GameJam1920.Assets.Scripts.Messages
         public ErrorCategory GetErrorCategory()
         {
             return _content.ErrorCategory;
+        }
+
+        public void SpawnNewMessage()
+        {
+            _tempDebugUI.SpawnMessage(true);
+        }
+
+        public void TriggerLeave()
+        {
+            _animator.SetTrigger("Leave");
         }
     }
 }
