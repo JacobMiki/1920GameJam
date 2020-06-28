@@ -36,6 +36,7 @@ namespace GameJam1920.Assets.Scripts.Messages
             {
                 feedbackSpawner.SpawnFeedback(message.GetErrorCategory());
             }
+            message.TriggerLeave();
             return true;
         }
     }
