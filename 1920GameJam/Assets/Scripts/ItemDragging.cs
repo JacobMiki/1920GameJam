@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
@@ -13,6 +13,9 @@ namespace GameJam1920.Assets.Scripts
         private Transform heldItem;
         private float topItemZIndex = 0;
 
+        private Vector2 idleShadowOffset=new Vector2(0.02f, 0.02f);
+        public Vector2 draggedShadowOffset;
+
         public void SetMousePosiotion(InputAction.CallbackContext context)
         {
             mousePosition = context.ReadValue<Vector2>();
@@ -23,6 +26,7 @@ namespace GameJam1920.Assets.Scripts
         {
             if (context.canceled)
             {
+                if(heldItem)heldItem.GetComponentInChildren<DropShadow>().ShadowOffset = new Vector3(idleShadowOffset.x,idleShadowOffset.y, heldItem.GetComponentInChildren<DropShadow>().ShadowOffset.z);
                 heldItem = null;
                 return;
             }
@@ -40,6 +44,7 @@ namespace GameJam1920.Assets.Scripts
             if (heldItem)
             {
                 heldItem.position = new Vector3(mousePositionInWorldSpace.x - heldItemOffset.x, mousePositionInWorldSpace.y - heldItemOffset.y, topItemZIndex);
+                heldItem.GetComponentInChildren<DropShadow>().ShadowOffset = new Vector3(draggedShadowOffset.x, draggedShadowOffset.y, heldItem.GetComponentInChildren<DropShadow>().ShadowOffset.z); ;
             }
         }
     }
