@@ -13,17 +13,81 @@ MonoBehaviour:
   m_Name: 15 sierpnia Messages
   m_EditorClassIdentifier: 
   Messages:
-  - Name: Correct message
+  - Name: 1
+    Date: 8 sierpnia
+    Codeword: 686
+    CommandingOfficer: Witowt Putna
+    Order: "Oddzia\u0142 300 \u017Co\u0142nierzy konnych ma uderzy\u0107 wroga i
+      przekroczy\u0107 rzek\u0119 Czarn\u0105 id\u0105c na zach\xF3d."
+    IsCorrect: 0
+    ErrorCategory: 2
+  - Name: 2
+    Date: 15 sierpnia
+    Codeword: 979
+    CommandingOfficer: Witowt Putna
+    Order: "Oddzia\u0142 numer 4 z tankietk\u0105 skierowa\u0107 przez rzek\u0119
+      Narew na wroga i zaatakowa\u0107 z pe\u0142n\u0105 si\u0142\u0105."
+    IsCorrect: 0
+    ErrorCategory: 6
+  - Name: 3
+    Date: 15 sierpnia
+    Codeword: 890
+    CommandingOfficer: Witowt Putna
+    Order: "Oddzia\u0142 piechoty numer 29 ukry\u0107 w Radzyminie."
+    IsCorrect: 1
+    ErrorCategory: 0
+  - Name: 4
+    Date: 15 sierpnia
+    Codeword: 967
+    CommandingOfficer: Witowt Putna
+    Order: "Oddzia\u0142 Piechoty musi wesprze\u0107 natychmiast oddzia\u0142 konny."
+    IsCorrect: 0
+    ErrorCategory: 3
+  - Name: 5
     Date: 15 sierpnia
     Codeword: 221
     CommandingOfficer: Witowt Putna
-    Order: "Asystowa\u0107 w przeprawie 27. oddzia\u0142u do Radzymina"
-    IsCorrect: 1
-    ErrorCategory: 0
-  - Name: Incorrect message
-    Date: 15 sierpnia
-    Codeword: 979
-    CommandingOfficer: Iwan Smolin
-    Order: "Ustawi\u0107 formacj\u0119 10000 armat przed rzek\u0105"
+    Order: "Oddzia\u0142 100 os\xF3b piechoty skierowa\u0107 na zach\xF3d, przej\u015B\u0107
+      rzek\u0119 Kwisn\u0119 i zaatakowa\u0107 jednostki wroga\r schowane w lesie."
     IsCorrect: 0
     ErrorCategory: 5
+  - Name: 6
+    Date: 15 sierpnia
+    Codeword: 11
+    CommandingOfficer: Iwan Smolin
+    Order: "Oddzia\u0142 650 \u017Co\u0142nierzy piechoty przeprowadzi\u0107 przez
+      drog\u0119 i zaatakowa\u0107 wroga."
+    IsCorrect: 1
+    ErrorCategory: 0
+  - Name: 7
+    Date: 15 sierpnia
+    Codeword: 979
+    CommandingOfficer: Witowt Putna
+    Order: "Oddzia\u0142 numer 16 konny ma uda\u0107 si\u0119 na P\xF3\u0142noc i
+      zaatakowa\u0107 wroga."
+    IsCorrect: 0
+    ErrorCategory: 4
+  - Name: 8
+    Date: 15 sierpnia
+    Codeword: 91
+    CommandingOfficer: Iwan Smolin
+    Order: "Oddzia\u0142 numer 25 z armat\u0105 przeprawi\u0107 przez rzek\u0119
+      Narew i ukry\u0107 w lesie."
+    IsCorrect: 0
+    ErrorCategory: 8
+  - Name: 9
+    Date: 15 sierpnia
+    Codeword: 
+    CommandingOfficer: Iwan Smolin
+    Order: "Oddzia\u0142 konny wyprowadzi\u0107 z lasu i zaatakowa\u0107 Polak\xF3w
+      id\u0105c na Warszaw\u0119."
+    IsCorrect: 1
+    ErrorCategory: 0
+  - Name: 10
+    Date: 15 sierpnia
+    Codeword: 890
+    CommandingOfficer: Witowt Putna
+    Order: "Oddzia\u0142 piechoty licz\u0105cy 200 os\xF3b wycofa\u0107 na wsch\xF3d
+      przez rzek\u0119 Rz\u0105dz\u0119"
+    IsCorrect: 0
+    ErrorCategory: 7

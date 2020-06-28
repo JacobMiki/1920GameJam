@@ -14,16 +14,78 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Messages:
   - Name: Correct message
+    Date: 16 sierpnia
+    Codeword: 
+    CommandingOfficer: Witwot Putna
+    Order: "1000 os\xF3b nale\u017Cy przeprowadzi\u0107 przez rzek\u0119 Czarn\u0105
+      w kierunku wojsk polskich."
+    IsCorrect: 0
+    ErrorCategory: 2
+  - Name: Correct message
     Date: 13 sierpnia
     Codeword: 470
     CommandingOfficer: Witwot Putna
-    Order: "Kontynuowa\u0107 ofensyw\u0119 237. oddzia\u0142u konnego na p\xF3\u0142noc"
+    Order: "Oddzia\u0142 235 z tankietk\u0105 poprowadzi\u0107 na wroga na zach\xF3d."
     IsCorrect: 1
     ErrorCategory: 0
-  - Name: Incorrect message
+  - Name: Correct message
     Date: 13 sierpnia
-    Codeword: 470
-    CommandingOfficer: Napoleon Bonaparte
-    Order: "Kontynuowa\u0107 ofensyw\u0119 237. oddzia\u0142u konnego na p\xF3\u0142noc"
+    Codeword: 
+    CommandingOfficer: Aleksiej Putny
+    Order: "Oddzia\u0142 konny ma przedosta\u0107 si\u0119 przez rzek\u0119 Rz\u0105dze."
     IsCorrect: 0
     ErrorCategory: 1
+  - Name: Correct message
+    Date: 13 sierpnia
+    Codeword: 983
+    CommandingOfficer: Witwot Putna
+    Order: "Oddzia\u0142 234 sk\u0142adaj\u0105cy si\u0119 z 750 os\xF3b, skierowa\u0107
+      na po\u0142udnie i wspom\xF3c oddzia\u0142 235."
+    IsCorrect: 0
+    ErrorCategory: 3
+  - Name: 5
+    Date: 13 sierpnia
+    Codeword: 
+    CommandingOfficer: Witwot Putna
+    Order: "Oddzia\u0142 236 z wozem konnym przeprowadzi\u0107 na p\xF3\u0142noc
+      i wzmocni\u0107 oddzia\u0142 z tankietk\u0105."
+    IsCorrect: 1
+    ErrorCategory: 0
+  - Name: 6
+    Date: 13 sierpnia
+    Codeword: 44
+    CommandingOfficer: Witwot Putna
+    Order: "Oddzia\u0142 numer 36 konny przerzuci\u0107 przez linni\u0119 kolejow\u0105
+      do Wo\u0142omina"
+    IsCorrect: 1
+    ErrorCategory: 0
+  - Name: 7
+    Date: 13 sierpnia
+    Codeword: 
+    CommandingOfficer: Witwot Putna
+    Order: "Wojska 400 os\xF3b skierowa\u0107 na Ossowo i zaatakowa\u0107 wroga."
+    IsCorrect: 1
+    ErrorCategory: 0
+  - Name: 8
+    Date: 13 sierpnia
+    Codeword: 10
+    CommandingOfficer: Witwot Putna
+    Order: "Oddzia\u0142 800 os\xF3b z tankietk\u0105 przeprowadzi\u0107 przez rzek\u0119
+      na zach\xF3d i zaatakowa\u0107 Radzymin."
+    IsCorrect: 0
+    ErrorCategory: 6
+  - Name: 9
+    Date: 13 sierpnia
+    Codeword: 235
+    CommandingOfficer: Witwot Putna
+    Order: "Oddzia\u0142 nr 236 wozem konnym poprowadzi\u0107 na wsch\xF3d za linni\u0119
+      kolejow\u0105 i zaatakowa\u0107 wroga."
+    IsCorrect: 0
+    ErrorCategory: 4
+  - Name: 10
+    Date: 13 sierpnia
+    Codeword: 
+    CommandingOfficer: Witwot Putna
+    Order: "Oddzia\u0142 237 poprowadzi\u0107 na zach\xF3d prosto na wroga."
+    IsCorrect: 1
+    ErrorCategory: 0
