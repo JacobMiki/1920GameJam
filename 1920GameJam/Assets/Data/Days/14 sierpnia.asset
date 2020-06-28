@@ -21,7 +21,7 @@ MonoBehaviour:
   EnemyPeopleLoss: 0
   FriendlyPeopleLoss: 0
   TeritoryChange: 0
-  RightAnswerPeopleChange: 0
-  RightAnswerTeritoryChange: 0
-  WrongAnswerPeopleChange: 0
-  WrongAnswerTeritoryChange: 0
+  RightAnswerPeopleChange: 100
+  RightAnswerTeritoryChange: 125
+  WrongAnswerPeopleChange: 100
+  WrongAnswerTeritoryChange: 65

@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -25,6 +25,11 @@ namespace GameJam1920.Assets.Scripts.Messages
             _coText.text = content.CommandingOfficer;
             _codewordText.text = content.Codeword;
             _orderText.text = content.Order;
+        }
+
+        public bool GetIsCorrect()
+        {
+            return _content.IsCorrect;
         }
     }
 }
