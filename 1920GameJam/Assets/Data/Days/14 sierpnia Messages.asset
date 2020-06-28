@@ -19,11 +19,11 @@ MonoBehaviour:
     CommandingOfficer: Witwot Putna
     Order: "Kontynuowa\u0107 ofensyw\u0119 237. oddzia\u0142u konnego na p\xF3\u0142noc"
     IsCorrect: 1
-    ErrorCategory: 
+    ErrorCategory: 0
   - Name: Incorrect message
     Date: 14 sierpnia
     Codeword: 470
     CommandingOfficer: Napoleon Bonaparte
     Order: "Kontynuowa\u0107 ofensyw\u0119 237. oddzia\u0142u konnego na p\xF3\u0142noc"
     IsCorrect: 0
-    ErrorCategory: officer
+    ErrorCategory: 5
