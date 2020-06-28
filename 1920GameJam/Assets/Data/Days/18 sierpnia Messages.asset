@@ -13,19 +13,82 @@ MonoBehaviour:
   m_Name: 18 sierpnia Messages
   m_EditorClassIdentifier: 
   Messages:
-  - Name: Correct message
+  - Name: 1
     Date: 18 sierpnia
-    Codeword: 503
+    Codeword: 376
     CommandingOfficer: "Gaj B\u017Cyszkian"
-    Order: "Zaj\u0105\u0107 kolejn\u0105 ulic\u0119 na zach\xF3d przez 4. dywizj\u0119
-      piechoty"
-    IsCorrect: 1
-    ErrorCategory: 
-  - Name: Incorrect message
-    Date: 18 sierpnia
-    Codeword: 504
-    CommandingOfficer: "Gaj B\u017Cyszkian"
-    Order: "Zaj\u0105\u0107 kolejn\u0105 ulic\u0119 na zach\xF3d przez 4. dywizj\u0119
-      piechoty"
+    Order: "Oddzia\u0142 650 os\xF3b z wozem konnym ma przej\u015B\u0107 przez P\u0142ock
+      i zaatakowa\u0107 wojska polskie."
     IsCorrect: 0
-    ErrorCategory: code
+    ErrorCategory: 3
+  - Name: 2
+    Date: 18 sierpnia
+    Codeword: 261
+    CommandingOfficer: "Gaj B\u017Cyszkian"
+    Order: "Wojska konne numer 10 i 11 przeprawi\u0107 na po\u0142udnie przez rzek\u0119
+      Wis\u0142\u0119."
+    IsCorrect: 1
+    ErrorCategory: 0
+  - Name: 3
+    Date: 18 sierpnia
+    Codeword: 105
+    CommandingOfficer: "Gaj B\u017Cyszkian"
+    Order: "Oddzia\u0142 piechoty numer 23 skierowa\u0107 na wroga na p\xF3\u0142noc."
+    IsCorrect: 0
+    ErrorCategory: 4
+  - Name: 4
+    Date: 18 sierpnia
+    Codeword: 693
+    CommandingOfficer: "Antoni B\u017Cyszkian"
+    Order: "Wojska numer 20 z tankietk\u0105 do\u0142\u0105czy\u0107 do formacji
+      z wojskami konnymi."
+    IsCorrect: 0
+    ErrorCategory: 1
+  - Name: 5
+    Date: 18 sierpnia
+    Codeword: 407
+    CommandingOfficer: "Gaj B\u017Cyszkian"
+    Order: "Oddzia\u0142 z wozem konnym numer 6 przeprowadzi\u0107 przez drog\u0119
+      i do\u0142\u0105czy\u0107 do oddzia\u0142\xF3w konnych."
+    IsCorrect: 1
+    ErrorCategory: 0
+  - Name: 6
+    Date: 18 sierpnia
+    Codeword: 231
+    CommandingOfficer: "Gaj B\u017Cyszkian"
+    Order: "Oddzia\u0142 1000 os\xF3b konny , wstrzyma\u0107 przepraw\u0119 przez
+      rzek\u0119 i do\u0142\u0105czy\u0107 do oddzia\u0142u z tankietk\u0105."
+    IsCorrect: 0
+    ErrorCategory: 7
+  - Name: 7
+    Date: 25 sierpnia
+    Codeword: 
+    CommandingOfficer: "Gaj B\u017Cyszkian"
+    Order: "Oddzia\u0142 numer 11 ma przedrze\u0107 si\u0119 przez obron\u0119 wroga
+      i dotrze\u0107 do G\u0105bina"
+    IsCorrect: 0
+    ErrorCategory: 2
+  - Name: 8
+    Date: 18 sierpnia
+    Codeword: 378
+    CommandingOfficer: "Gaj B\u017Cyszkian"
+    Order: "Oddzia\u0142 700 os\xF3b z wozem konnym przeprowadzi\u0107 na po\u0142udniowy
+      zach\xF3d, rozbi\u0107 atak wroga i zaj\u0105\u0107\r\n\u0141\u0105ck."
+    IsCorrect: 1
+    ErrorCategory: 0
+  - Name: 9
+    Date: 18 sierpnia
+    Codeword: 87
+    CommandingOfficer: "Gaj B\u017Cyszkian"
+    Order: "Oddzia\u0142 piechoty numer 24 ewakuowa\u0107 na Wsch\xF3d do miejscowo\u015Bci
+      Gostynin."
+    IsCorrect: 0
+    ErrorCategory: 5
+  - Name: 10
+    Date: 18 sierpnia
+    Codeword: 
+    CommandingOfficer: "Gaj B\u017Cyszkian"
+    Order: "Oddzia\u0142 1050 os\xF3b skierowa\u0107 na Bodzan\xF3w, ewakuowa\u0107
+      si\u0119!"
+    IsCorrect: 1
+    ErrorCategory: 0
