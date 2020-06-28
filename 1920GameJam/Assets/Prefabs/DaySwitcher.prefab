@@ -43,10 +43,54 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f23cfd90c8c4dd84bbda9ee95ccf1cb2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _daySummary: {fileID: 0}
   days:
   - {fileID: 11400000, guid: 941ca7b1c654efd4c9f7b0cd73f834ee, type: 2}
   - {fileID: 11400000, guid: 99f7168982fa4684faf183e95d6fa46b, type: 2}
   - {fileID: 11400000, guid: 9aaf69ab57c4aac488638b72640b0bc0, type: 2}
   - {fileID: 11400000, guid: 0eb7f227fcaadb547a53e14f678f381c, type: 2}
-  - {fileID: 11400000, guid: ddd7c8a72e936d44bb6331821b676465, type: 2}
   calendarText: {fileID: 0}
+  aidsContainer: {fileID: 0}
+  _preDayEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_MethodName: Hide
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  _newDayEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_MethodName: OnNewDay
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  _dayEndEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_MethodName: Show
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  state: 0
