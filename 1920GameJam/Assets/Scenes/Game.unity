@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 1
+  m_UseShadowmask: 0
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -819,6 +819,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Day Summary
       objectReference: {fileID: 0}
+    - target: {fileID: 1991719678987445471, guid: 148d5029c4b49334191b7702ce1dec02,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3123672543811810453, guid: 148d5029c4b49334191b7702ce1dec02,
         type: 3}
       propertyPath: m_Mesh
@@ -1514,6 +1519,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Day Intro
+      objectReference: {fileID: 0}
+    - target: {fileID: 3190283997248249350, guid: 85fff6f1ccd30ae488d2bdad96a0e7b1,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3190283997248249369, guid: 85fff6f1ccd30ae488d2bdad96a0e7b1,
         type: 3}

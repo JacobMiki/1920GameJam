@@ -15,7 +15,6 @@ namespace GameJam1920.Assets.Scripts
         private void Start()
         {
             _scoreManager = FindObjectOfType<ScoreManager>();
-            Hide();
         }
 
         public void Show()
