@@ -83,6 +83,21 @@ PrefabInstance:
       propertyPath: m_WasSpriteAssigned
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2776736182757922267, guid: 2b509dc3e3c6f3c44924376495ce0b9c,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2776736182757922267, guid: 2b509dc3e3c6f3c44924376495ce0b9c,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 0.905303
+      objectReference: {fileID: 0}
+    - target: {fileID: 2776736182757922267, guid: 2b509dc3e3c6f3c44924376495ce0b9c,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 0.8820755
+      objectReference: {fileID: 0}
     - target: {fileID: 2776736182757922268, guid: 2b509dc3e3c6f3c44924376495ce0b9c,
         type: 3}
       propertyPath: m_SpriteTilingProperty.pivot.x
@@ -141,7 +156,7 @@ PrefabInstance:
     - target: {fileID: 2776736182757922269, guid: 2b509dc3e3c6f3c44924376495ce0b9c,
         type: 3}
       propertyPath: m_Name
-      value: Aid - Codes 14 sierpnia
+      value: Aid - Codes 13 sierpnia (base)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2b509dc3e3c6f3c44924376495ce0b9c, type: 3}
