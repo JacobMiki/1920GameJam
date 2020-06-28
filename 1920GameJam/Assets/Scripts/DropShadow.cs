@@ -17,6 +17,7 @@ namespace GameJam1920.Assets.Scripts
 
             //create a new gameobject to be used as drop shadow
             shadowGameobject = new GameObject("Shadow");
+            shadowGameobject.transform.SetParent(transform);
 
             //create a new SpriteRenderer for Shadow gameobject
             var shadowSpriteRenderer = shadowGameobject.AddComponent<SpriteRenderer>();
