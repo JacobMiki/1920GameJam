@@ -43,6 +43,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 22afdf737169421459e7e4849850b3a6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  teritory: 1
-  enemiesLoss: 11
-  aliesLoss: 111
+  territory: 0
+  enemiesLoss: 0
+  alliesLoss: 0
+  totalTerritory: 0
+  totalEnemiesLoss: 0
+  totalAlliesLoss: 0

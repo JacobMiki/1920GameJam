@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -11,16 +11,26 @@ namespace GameJam1920.Assets.Scripts.Messages
 
         [SerializeField] private Transform _stampSign;
 
+        private ScoreManager scoreManager;
         private bool _isSigned = false;
 
-        public void Sign(Vector2 stampPosition, bool approved)
+        private void Start()
+        {
+            scoreManager = FindObjectOfType<ScoreManager>();
+        }
+
+        public void Sign(Vector2 stampPosition, bool isApproved)
         {
             if (_isSigned) return;
 
-            var sprite = approved ? _approved : _rejected;
+            var sprite = isApproved ? _approved : _rejected;
             _stampSign.position = new Vector3(stampPosition.x,stampPosition.y, transform.position.z);
             _stampSign.GetComponent<SpriteRenderer>().sprite = sprite;
             _isSigned = true;
+
+            //animacja
+
+            scoreManager.UpdateScore(GetComponentInParent<Message>().GetIsCorrect(), isApproved);
         }
     }
 }

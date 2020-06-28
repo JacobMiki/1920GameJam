@@ -121,6 +121,18 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!114 &31200825 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3506160671070894487, guid: 66d6a302335eba645815fc978908fb97,
+    type: 3}
+  m_PrefabInstance: {fileID: 247755975}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22afdf737169421459e7e4849850b3a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &54446019
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -786,6 +798,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Day Summary
       objectReference: {fileID: 0}
+    - target: {fileID: 1991719678987445471, guid: 148d5029c4b49334191b7702ce1dec02,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2198821105249380604, guid: 148d5029c4b49334191b7702ce1dec02,
         type: 3}
       propertyPath: m_textInfo.characterCount
@@ -910,6 +927,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_textInfo.pageCount
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7239971519623332545, guid: 148d5029c4b49334191b7702ce1dec02,
+        type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7239971519623332545, guid: 148d5029c4b49334191b7702ce1dec02,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8236842519699967212, guid: 148d5029c4b49334191b7702ce1dec02,
         type: 3}
@@ -1586,7 +1613,7 @@ PrefabInstance:
     - target: {fileID: 3601327984591235619, guid: db1038d34f4dd1545b9c367f50b7064c,
         type: 3}
       propertyPath: _newDayEvent.m_PersistentCalls.m_Calls.Array.size
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3601327984591235619, guid: db1038d34f4dd1545b9c367f50b7064c,
         type: 3}
@@ -1646,6 +1673,31 @@ PrefabInstance:
     - target: {fileID: 3601327984591235619, guid: db1038d34f4dd1545b9c367f50b7064c,
         type: 3}
       propertyPath: _newDayEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 3601327984591235619, guid: db1038d34f4dd1545b9c367f50b7064c,
+        type: 3}
+      propertyPath: _newDayEvent.m_PersistentCalls.m_Calls.Array.data[2].m_Mode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3601327984591235619, guid: db1038d34f4dd1545b9c367f50b7064c,
+        type: 3}
+      propertyPath: _newDayEvent.m_PersistentCalls.m_Calls.Array.data[2].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3601327984591235619, guid: db1038d34f4dd1545b9c367f50b7064c,
+        type: 3}
+      propertyPath: _newDayEvent.m_PersistentCalls.m_Calls.Array.data[2].m_Target
+      value: 
+      objectReference: {fileID: 31200825}
+    - target: {fileID: 3601327984591235619, guid: db1038d34f4dd1545b9c367f50b7064c,
+        type: 3}
+      propertyPath: _newDayEvent.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
+      value: OnNewDay
+      objectReference: {fileID: 0}
+    - target: {fileID: 3601327984591235619, guid: db1038d34f4dd1545b9c367f50b7064c,
+        type: 3}
+      propertyPath: _newDayEvent.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 5173837722827092759, guid: db1038d34f4dd1545b9c367f50b7064c,
