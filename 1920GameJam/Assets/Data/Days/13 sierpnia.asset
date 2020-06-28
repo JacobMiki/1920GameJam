@@ -21,6 +21,7 @@ MonoBehaviour:
   - {fileID: 4890482383130453402, guid: 1c89b5483484d28409b6cf84a947ccd6, type: 3}
   - {fileID: 4890482383130453402, guid: 0eb07ec3ef061c348a768f4891468e81, type: 3}
   - {fileID: 4890482383130453402, guid: 94c5a95d32032ff4d999e64cd6075610, type: 3}
+  - {fileID: 4890482383130453402, guid: c2253ecd1a2e7ad4c9dad23ae91d7b72, type: 3}
   EnemyPeopleLoss: 240
   FriendlyPeopleLoss: 150
   TeritoryChange: 20
