@@ -15,15 +15,15 @@ MonoBehaviour:
   Messages:
   - Name: Correct message
     Date: 14 sierpnia
-    Codeword: 470
-    CommandingOfficer: Witwot Putna
-    Order: "Kontynuowa\u0107 ofensyw\u0119 237. oddzia\u0142u konnego na p\xF3\u0142noc"
+    Codeword: 813
+    CommandingOfficer: August Iwanowicz Kork
+    Order: "Wyruszy\u0107 2. oddzia\u0142em karabinier\xF3w w stron\u0119 Borkowa"
     IsCorrect: 1
     ErrorCategory: 0
   - Name: Incorrect message
-    Date: 14 sierpnia
-    Codeword: 470
-    CommandingOfficer: Napoleon Bonaparte
-    Order: "Kontynuowa\u0107 ofensyw\u0119 237. oddzia\u0142u konnego na p\xF3\u0142noc"
+    Date: 13 sierpnia
+    Codeword: 520
+    CommandingOfficer: August Iwanowicz Kork
+    Order: "Wyruszy\u0107 ma\u0142ym oddzia\u0142em piechoty w stron\u0119 Borkowa"
     IsCorrect: 0
-    ErrorCategory: 5
+    ErrorCategory: 2

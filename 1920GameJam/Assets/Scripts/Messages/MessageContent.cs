@@ -10,7 +10,10 @@ namespace GameJam1920.Assets.Scripts.Messages
         DAY,
         CODE,
         DIRECTION,
+        LANDMARK,
         TROOP_TYPE,
+        TROOP_COUNT,
+        TROOP_GROUP_NAME,
     }
 
     [Serializable]

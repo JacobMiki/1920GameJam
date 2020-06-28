@@ -15,15 +15,15 @@ MonoBehaviour:
   Messages:
   - Name: Correct message
     Date: 15 sierpnia
-    Codeword: 813
-    CommandingOfficer: August Iwanowicz Kork
-    Order: "Wyruszy\u0107 2. oddzia\u0142em karabinier\xF3w w stron\u0119 Borkowa"
+    Codeword: 221
+    CommandingOfficer: Witowt Putna
+    Order: "Asystowa\u0107 w przeprawie 27. oddzia\u0142u do Radzymina"
     IsCorrect: 1
-    ErrorCategory: 
+    ErrorCategory: 0
   - Name: Incorrect message
-    Date: 14 sierpnia
-    Codeword: 520
-    CommandingOfficer: August Iwanowicz Kork
-    Order: "Wyruszy\u0107 ma\u0142ym oddzia\u0142em piechoty w stron\u0119 Borkowa"
+    Date: 15 sierpnia
+    Codeword: 979
+    CommandingOfficer: Iwan Smolin
+    Order: "Ustawi\u0107 formacj\u0119 10000 armat przed rzek\u0105"
     IsCorrect: 0
-    ErrorCategory: date
+    ErrorCategory: 5

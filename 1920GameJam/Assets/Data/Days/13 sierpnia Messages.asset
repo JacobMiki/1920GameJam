@@ -10,20 +10,20 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7cb2bb6e835c3994d954711512cf7480, type: 3}
-  m_Name: 16 sierpnia Messages
+  m_Name: 13 sierpnia Messages
   m_EditorClassIdentifier: 
   Messages:
   - Name: Correct message
-    Date: 16 sierpnia
-    Codeword: 221
-    CommandingOfficer: Witowt Putna
-    Order: "Asystowa\u0107 w przeprawie 27. oddzia\u0142u do Radzymina"
+    Date: 13 sierpnia
+    Codeword: 470
+    CommandingOfficer: Witwot Putna
+    Order: "Kontynuowa\u0107 ofensyw\u0119 237. oddzia\u0142u konnego na p\xF3\u0142noc"
     IsCorrect: 1
-    ErrorCategory: 
+    ErrorCategory: 0
   - Name: Incorrect message
-    Date: 16 sierpnia
-    Codeword: 979
-    CommandingOfficer: Iwan Smolin
-    Order: "Ustawi\u0107 formacj\u0119 10000 armat przed rzek\u0105"
+    Date: 13 sierpnia
+    Codeword: 470
+    CommandingOfficer: Napoleon Bonaparte
+    Order: "Kontynuowa\u0107 ofensyw\u0119 237. oddzia\u0142u konnego na p\xF3\u0142noc"
     IsCorrect: 0
-    ErrorCategory: troopCount
+    ErrorCategory: 1

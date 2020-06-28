@@ -61,7 +61,10 @@ namespace GameJam1920.Assets.Scripts
 
         private void SetCalendarDate()
         {
-            calendarText.text = days[currentDay].Date;
+            if (calendarText != null)
+            {
+                calendarText.text = days[currentDay].Date;
+            }
         }
 
         private void SpawnAids()

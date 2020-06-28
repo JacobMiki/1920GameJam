@@ -12,16 +12,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7305420bc544be246930084f1006f80f, type: 3}
   m_Name: 14 sierpnia
   m_EditorClassIdentifier: 
-  Date: 14 sierpnia
+  Date: 15 sierpnia
   CorrectMessages: 3
   IncorrectMessages: 7
-  MessageData: {fileID: 11400000, guid: 59fdac324acd9124c84516332f577449, type: 2}
+  MessageData: {fileID: 11400000, guid: 7c0842df9aff3194782b8416a1c43322, type: 2}
   aidPrefabs:
   - {fileID: 4890482383130453402, guid: 11e0553f7a470e04687ab49780f79d82, type: 3}
+  - {fileID: 631098396164760215, guid: b9025563f4cbfb748b13251f33dc5641, type: 3}
+  - {fileID: 1696420246241843217, guid: 940acea1e5be10248bd12e6cedc65d56, type: 3}
+  - {fileID: 1161751425076605015, guid: 2605ba5085628cc4f81fe4a790328a8e, type: 3}
   EnemyPeopleLoss: 0
   FriendlyPeopleLoss: 0
   TeritoryChange: 0
-  RightAnswerPeopleChange: 100
-  RightAnswerTeritoryChange: 125
-  WrongAnswerPeopleChange: 100
-  WrongAnswerTeritoryChange: 65
+  RightAnswerPeopleChange: 0
+  RightAnswerTeritoryChange: 0
+  WrongAnswerPeopleChange: 0
+  WrongAnswerTeritoryChange: 0
