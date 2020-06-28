@@ -46,7 +46,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _messagePrefab: {fileID: 1150185187550648974, guid: b29d7b51b3a3e3a4291b4a9b8039a0ae,
     type: 3}
-  _initialSpawnDelay: 5
+  _initialSpawnDelay: 1
 --- !u!114 &7614270276772793584
 MonoBehaviour:
   m_ObjectHideFlags: 0
