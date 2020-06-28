@@ -21,10 +21,10 @@ MonoBehaviour:
   - {fileID: 631098396164760215, guid: b222349e34f705b459950180bd90eac2, type: 3}
   - {fileID: 1696420246241843217, guid: ee132b789fa887e41b4cddabd4668161, type: 3}
   - {fileID: 1161751425076605015, guid: 8e605a02f58117147a318f077d609872, type: 3}
-  EnemyPeopleLoss: 0
-  FriendlyPeopleLoss: 0
-  TeritoryChange: 0
-  RightAnswerPeopleChange: 0
-  RightAnswerTeritoryChange: 0
-  WrongAnswerPeopleChange: 0
-  WrongAnswerTeritoryChange: 0
+  EnemyPeopleLoss: 150
+  FriendlyPeopleLoss: 130
+  TeritoryChange: 20
+  RightAnswerPeopleChange: 150
+  RightAnswerTeritoryChange: 50
+  WrongAnswerPeopleChange: 100
+  WrongAnswerTeritoryChange: 25
