@@ -13,17 +13,82 @@ MonoBehaviour:
   m_Name: 14 sierpnia Messages
   m_EditorClassIdentifier: 
   Messages:
-  - Name: Correct message
+  - Name: 1
     Date: 14 sierpnia
-    Codeword: 813
+    Codeword: 247
     CommandingOfficer: August Iwanowicz Kork
-    Order: "Wyruszy\u0107 2. oddzia\u0142em karabinier\xF3w w stron\u0119 Borkowa"
+    Order: "Oddzia\u0142 700 osob z tankietk\u0105 przeprowadzi\u0107 na zach\xF3d
+      przez rzek\u0119 czarn\u0105 i i\u015B\u0107 na wroga."
     IsCorrect: 1
     ErrorCategory: 0
-  - Name: Incorrect message
-    Date: 13 sierpnia
-    Codeword: 520
+  - Name: 2
+    Date: 14 sierpnia
+    Codeword: 931
     CommandingOfficer: August Iwanowicz Kork
-    Order: "Wyruszy\u0107 ma\u0142ym oddzia\u0142em piechoty w stron\u0119 Borkowa"
+    Order: "Oddzia\u0142 nr 2 piechoty poprowadzi\u0107 na zach\xF3d do miejscowo\u015Bci
+      Serock."
+    IsCorrect: 0
+    ErrorCategory: 4
+  - Name: 3
+    Date: 14 sierpnia
+    Codeword: 395
+    CommandingOfficer: August Iwanowicz Kork
+    Order: "Oddzia\u0142 300os\xF3b z armat\u0105 przeprowadzi\u0107 przez linni\u0119
+      kolejow\u0105 i zaatakowa\u0107 wroga."
+    IsCorrect: 1
+    ErrorCategory: 0
+  - Name: 4
+    Date: 14 sierpnia
+    Codeword: 957
+    CommandingOfficer: August Iwanowicz Kork
+    Order: "Oddzia\u0142 900 os\xF3b numer 6 piechoty wys\u0142a\u0107 wprost na
+      wroga na zach\xF3d i zaj\u0105\u0107 Legionowo."
+    IsCorrect: 0
+    ErrorCategory: 8
+  - Name: 5
+    Date: 14 sierpnia
+    Codeword: 86
+    CommandingOfficer: August Iwanowicz Kork
+    Order: "Oddzia\u0142 numer 6 przeprowadzi\u0107 przez rzek\u0119 Bzur\u0119 i
+      do\u0142\u0105czy\u0107 do oddzia\u0142u nr 5."
+    IsCorrect: 0
+    ErrorCategory: 5
+  - Name: 6
+    Date: 18 sierpnia
+    Codeword: 
+    CommandingOfficer: August Iwanowicz Kork
+    Order: "Oddzia\u0142 z armat\u0105 ewakuowa\u0107 na p\xF3\u0142noc."
     IsCorrect: 0
     ErrorCategory: 2
+  - Name: 7
+    Date: 14 sierpnia
+    Codeword: 957
+    CommandingOfficer: August Iwanowicz Kork
+    Order: "Oddzia\u0142 1000 os\xF3b piechoty ma przekroczy\u0107 linni\u0119 kolejow\u0105
+      i zaatakowa\u0107 wrogie pozycje."
+    IsCorrect: 1
+    ErrorCategory: 0
+  - Name: 8
+    Date: 14 sierpnia
+    Codeword: 957
+    CommandingOfficer: Aleksiej Rasputin
+    Order: "Oddzia\u0142 z tankietk\u0105 ma przekroczy\u0107 rzek\u0119 czarn\u0105
+      i uda\u0107 si\u0119 na Warszaw\u0119 na po\u0142udniowy zach\xF3d."
+    IsCorrect: 0
+    ErrorCategory: 1
+  - Name: 9
+    Date: 14 sierpnia
+    Codeword: 
+    CommandingOfficer: August Iwanowicz Kork
+    Order: "Oddzia\u0142 numer 5 ma si\u0119 wycofa\u0107 na P\xF3\u0142noc i przekorczy\u0107
+      Narew."
+    IsCorrect: 1
+    ErrorCategory: 0
+  - Name: 10
+    Date: 14 sierpnia
+    Codeword: 544
+    CommandingOfficer: August Iwanowicz Kork
+    Order: "Oddzia\u0142 1000 os\xF3b z tankietk\u0105 ma dokona\u0107 odwrotu na
+      wsch\xF3d i do\u0142\u0105czy\u0107 do oddzia\u0142u licz\u0105cego 700\r os\xF3b."
+    IsCorrect: 0
+    ErrorCategory: 6
