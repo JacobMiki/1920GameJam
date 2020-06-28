@@ -1,7 +1,7 @@
 {
-"companyName": "1920GameJam",
-"productName": "1920GameJam",
-"productVersion": "0.1",
+"companyName": "THETEAM",
+"productName": "Kryptograf 1920",
+"productVersion": "1.0.0",
 "dataUrl": "Web.data.unityweb",
 "wasmCodeUrl": "Web.wasm.code.unityweb",
 "wasmFrameworkUrl": "Web.wasm.framework.unityweb",
