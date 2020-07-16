@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2311904243279392847}
   - component: {fileID: 2311904243279392841}
-  - component: {fileID: 2311904243279392846}
+  - component: {fileID: 2924927431808781625}
   m_Layer: 0
   m_Name: Sprite
   m_TagString: Untagged
@@ -82,7 +82,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &2311904243279392846
+--- !u!114 &2924927431808781625
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -107,6 +107,7 @@ GameObject:
   - component: {fileID: 2311904243762693943}
   - component: {fileID: 2311904243762693942}
   - component: {fileID: 5807478903015043243}
+  - component: {fileID: 2200058549367770800}
   m_Layer: 8
   m_Name: Feedback Paper
   m_TagString: Untagged
@@ -174,3 +175,23 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &2200058549367770800
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2311904243762693940}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99c6eeabe201154459c514c85f93a061, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _dropShadow: {fileID: 2924927431808781625}
+  _draggingShadowOffset: {x: -0.1, y: -0.1}
+  _worldBoundaries:
+    serializedVersion: 2
+    x: -8
+    y: -4.5
+    width: 16
+    height: 9

@@ -32,6 +32,14 @@ public class @PlayerInputs : IInputActionCollection, IDisposable
                     ""id"": ""e5f232f3-721f-4744-9db2-a7b922c14652"",
                     ""expectedControlType"": ""Button"",
                     ""processors"": """",
+                    ""interactions"": ""Tap""
+                },
+                {
+                    ""name"": ""Drag"",
+                    ""type"": ""Button"",
+                    ""id"": ""304c5a17-59df-4020-9793-e6e324b5180f"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
                     ""interactions"": """"
                 },
                 {
@@ -96,6 +104,28 @@ public class @PlayerInputs : IInputActionCollection, IDisposable
                     ""processors"": """",
                     ""groups"": """",
                     ""action"": ""Confirm"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""4901323b-636d-4fd6-93fe-d7226dec2f14"",
+                    ""path"": ""<Mouse>/leftButton"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Drag"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""f765f180-5852-4996-a782-0d64d5d75a4d"",
+                    ""path"": ""<Touchscreen>/primaryTouch/tap"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Drag"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 }
@@ -614,6 +644,7 @@ public class @PlayerInputs : IInputActionCollection, IDisposable
         m_Player = asset.FindActionMap("Player", throwIfNotFound: true);
         m_Player_MousePosition = m_Player.FindAction("MousePosition", throwIfNotFound: true);
         m_Player_Interact = m_Player.FindAction("Interact", throwIfNotFound: true);
+        m_Player_Drag = m_Player.FindAction("Drag", throwIfNotFound: true);
         m_Player_Confirm = m_Player.FindAction("Confirm", throwIfNotFound: true);
         // UI
         m_UI = asset.FindActionMap("UI", throwIfNotFound: true);
@@ -678,6 +709,7 @@ public class @PlayerInputs : IInputActionCollection, IDisposable
     private IPlayerActions m_PlayerActionsCallbackInterface;
     private readonly InputAction m_Player_MousePosition;
     private readonly InputAction m_Player_Interact;
+    private readonly InputAction m_Player_Drag;
     private readonly InputAction m_Player_Confirm;
     public struct PlayerActions
     {
@@ -685,6 +717,7 @@ public class @PlayerInputs : IInputActionCollection, IDisposable
         public PlayerActions(@PlayerInputs wrapper) { m_Wrapper = wrapper; }
         public InputAction @MousePosition => m_Wrapper.m_Player_MousePosition;
         public InputAction @Interact => m_Wrapper.m_Player_Interact;
+        public InputAction @Drag => m_Wrapper.m_Player_Drag;
         public InputAction @Confirm => m_Wrapper.m_Player_Confirm;
         public InputActionMap Get() { return m_Wrapper.m_Player; }
         public void Enable() { Get().Enable(); }
@@ -701,6 +734,9 @@ public class @PlayerInputs : IInputActionCollection, IDisposable
                 @Interact.started -= m_Wrapper.m_PlayerActionsCallbackInterface.OnInteract;
                 @Interact.performed -= m_Wrapper.m_PlayerActionsCallbackInterface.OnInteract;
                 @Interact.canceled -= m_Wrapper.m_PlayerActionsCallbackInterface.OnInteract;
+                @Drag.started -= m_Wrapper.m_PlayerActionsCallbackInterface.OnDrag;
+                @Drag.performed -= m_Wrapper.m_PlayerActionsCallbackInterface.OnDrag;
+                @Drag.canceled -= m_Wrapper.m_PlayerActionsCallbackInterface.OnDrag;
                 @Confirm.started -= m_Wrapper.m_PlayerActionsCallbackInterface.OnConfirm;
                 @Confirm.performed -= m_Wrapper.m_PlayerActionsCallbackInterface.OnConfirm;
                 @Confirm.canceled -= m_Wrapper.m_PlayerActionsCallbackInterface.OnConfirm;
@@ -714,6 +750,9 @@ public class @PlayerInputs : IInputActionCollection, IDisposable
                 @Interact.started += instance.OnInteract;
                 @Interact.performed += instance.OnInteract;
                 @Interact.canceled += instance.OnInteract;
+                @Drag.started += instance.OnDrag;
+                @Drag.performed += instance.OnDrag;
+                @Drag.canceled += instance.OnDrag;
                 @Confirm.started += instance.OnConfirm;
                 @Confirm.performed += instance.OnConfirm;
                 @Confirm.canceled += instance.OnConfirm;
@@ -830,6 +869,7 @@ public class @PlayerInputs : IInputActionCollection, IDisposable
     {
         void OnMousePosition(InputAction.CallbackContext context);
         void OnInteract(InputAction.CallbackContext context);
+        void OnDrag(InputAction.CallbackContext context);
         void OnConfirm(InputAction.CallbackContext context);
     }
     public interface IUIActions

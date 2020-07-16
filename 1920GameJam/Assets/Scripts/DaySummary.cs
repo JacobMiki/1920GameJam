@@ -12,14 +12,11 @@ namespace GameJam1920.Assets.Scripts
 
         private ScoreManager _scoreManager;
 
-        private void Start()
-        {
-            _scoreManager = FindObjectOfType<ScoreManager>();
-        }
-
         public void Show()
         {
             gameObject.SetActive(true);
+
+            _scoreManager = FindObjectOfType<ScoreManager>();
             _alliesText.text = _scoreManager.alliesLoss.ToString();
             _enemiesText.text = _scoreManager.enemiesLoss.ToString();
             _territoryText.text = _scoreManager.territory.ToString();
