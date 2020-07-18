@@ -1811,6 +1811,18 @@ PrefabInstance:
       propertyPath: _preDayEvent.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 3601327984591235619, guid: db1038d34f4dd1545b9c367f50b7064c,
+        type: 3}
+      propertyPath: days.Array.data[1]
+      value: 
+      objectReference: {fileID: 11400000, guid: 941ca7b1c654efd4c9f7b0cd73f834ee,
+        type: 2}
+    - target: {fileID: 3601327984591235619, guid: db1038d34f4dd1545b9c367f50b7064c,
+        type: 3}
+      propertyPath: days.Array.data[2]
+      value: 
+      objectReference: {fileID: 11400000, guid: 99f7168982fa4684faf183e95d6fa46b,
+        type: 2}
     - target: {fileID: 5173837722827092759, guid: db1038d34f4dd1545b9c367f50b7064c,
         type: 3}
       propertyPath: m_LocalPosition.x
