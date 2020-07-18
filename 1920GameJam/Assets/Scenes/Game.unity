@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 1
+  m_UseShadowmask: 0
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -1623,24 +1623,9 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3601327984591235619, guid: db1038d34f4dd1545b9c367f50b7064c,
         type: 3}
-      propertyPath: _preDayEvent.m_PersistentCalls.m_Calls.Array.size
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 3601327984591235619, guid: db1038d34f4dd1545b9c367f50b7064c,
-        type: 3}
-      propertyPath: _newDayEvent.m_PersistentCalls.m_Calls.Array.size
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 3601327984591235619, guid: db1038d34f4dd1545b9c367f50b7064c,
-        type: 3}
       propertyPath: _daySummary
       value: 
       objectReference: {fileID: 798893725}
-    - target: {fileID: 3601327984591235619, guid: db1038d34f4dd1545b9c367f50b7064c,
-        type: 3}
-      propertyPath: calendarText
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 3601327984591235619, guid: db1038d34f4dd1545b9c367f50b7064c,
         type: 3}
       propertyPath: aidsContainer
@@ -1653,124 +1638,9 @@ PrefabInstance:
       objectReference: {fileID: 798893725}
     - target: {fileID: 3601327984591235619, guid: db1038d34f4dd1545b9c367f50b7064c,
         type: 3}
-      propertyPath: _newDayEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 1883884558}
-    - target: {fileID: 3601327984591235619, guid: db1038d34f4dd1545b9c367f50b7064c,
-        type: 3}
-      propertyPath: _dayEndEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 798893725}
-    - target: {fileID: 3601327984591235619, guid: db1038d34f4dd1545b9c367f50b7064c,
-        type: 3}
-      propertyPath: _preDayEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3601327984591235619, guid: db1038d34f4dd1545b9c367f50b7064c,
-        type: 3}
-      propertyPath: _preDayEvent.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 3601327984591235619, guid: db1038d34f4dd1545b9c367f50b7064c,
-        type: 3}
-      propertyPath: _newDayEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3601327984591235619, guid: db1038d34f4dd1545b9c367f50b7064c,
-        type: 3}
-      propertyPath: _newDayEvent.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 3601327984591235619, guid: db1038d34f4dd1545b9c367f50b7064c,
-        type: 3}
       propertyPath: _preDayEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
       objectReference: {fileID: 3190283998296481994}
-    - target: {fileID: 3601327984591235619, guid: db1038d34f4dd1545b9c367f50b7064c,
-        type: 3}
-      propertyPath: _newDayEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 3190283998296481994}
-    - target: {fileID: 3601327984591235619, guid: db1038d34f4dd1545b9c367f50b7064c,
-        type: 3}
-      propertyPath: _preDayEvent.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: Show
-      objectReference: {fileID: 0}
-    - target: {fileID: 3601327984591235619, guid: db1038d34f4dd1545b9c367f50b7064c,
-        type: 3}
-      propertyPath: _preDayEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
-      objectReference: {fileID: 0}
-    - target: {fileID: 3601327984591235619, guid: db1038d34f4dd1545b9c367f50b7064c,
-        type: 3}
-      propertyPath: _newDayEvent.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: Hide
-      objectReference: {fileID: 0}
-    - target: {fileID: 3601327984591235619, guid: db1038d34f4dd1545b9c367f50b7064c,
-        type: 3}
-      propertyPath: _newDayEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
-      objectReference: {fileID: 0}
-    - target: {fileID: 3601327984591235619, guid: db1038d34f4dd1545b9c367f50b7064c,
-        type: 3}
-      propertyPath: _newDayEvent.m_PersistentCalls.m_Calls.Array.data[2].m_Mode
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3601327984591235619, guid: db1038d34f4dd1545b9c367f50b7064c,
-        type: 3}
-      propertyPath: _newDayEvent.m_PersistentCalls.m_Calls.Array.data[2].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 3601327984591235619, guid: db1038d34f4dd1545b9c367f50b7064c,
-        type: 3}
-      propertyPath: _newDayEvent.m_PersistentCalls.m_Calls.Array.data[2].m_Target
-      value: 
-      objectReference: {fileID: 31200825}
-    - target: {fileID: 3601327984591235619, guid: db1038d34f4dd1545b9c367f50b7064c,
-        type: 3}
-      propertyPath: _newDayEvent.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
-      value: OnNewDay
-      objectReference: {fileID: 0}
-    - target: {fileID: 3601327984591235619, guid: db1038d34f4dd1545b9c367f50b7064c,
-        type: 3}
-      propertyPath: _newDayEvent.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
-      objectReference: {fileID: 0}
-    - target: {fileID: 3601327984591235619, guid: db1038d34f4dd1545b9c367f50b7064c,
-        type: 3}
-      propertyPath: _newDayEvent.m_PersistentCalls.m_Calls.Array.data[3].m_Mode
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3601327984591235619, guid: db1038d34f4dd1545b9c367f50b7064c,
-        type: 3}
-      propertyPath: _newDayEvent.m_PersistentCalls.m_Calls.Array.data[3].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 3601327984591235619, guid: db1038d34f4dd1545b9c367f50b7064c,
-        type: 3}
-      propertyPath: _newDayEvent.m_PersistentCalls.m_Calls.Array.data[3].m_Target
-      value: 
-      objectReference: {fileID: 172406697}
-    - target: {fileID: 3601327984591235619, guid: db1038d34f4dd1545b9c367f50b7064c,
-        type: 3}
-      propertyPath: _newDayEvent.m_PersistentCalls.m_Calls.Array.data[3].m_MethodName
-      value: Clear
-      objectReference: {fileID: 0}
-    - target: {fileID: 3601327984591235619, guid: db1038d34f4dd1545b9c367f50b7064c,
-        type: 3}
-      propertyPath: _newDayEvent.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
-      objectReference: {fileID: 0}
-    - target: {fileID: 3601327984591235619, guid: db1038d34f4dd1545b9c367f50b7064c,
-        type: 3}
-      propertyPath: _preDayEvent.m_PersistentCalls.m_Calls.Array.data[2].m_Mode
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3601327984591235619, guid: db1038d34f4dd1545b9c367f50b7064c,
-        type: 3}
-      propertyPath: _preDayEvent.m_PersistentCalls.m_Calls.Array.data[2].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
     - target: {fileID: 3601327984591235619, guid: db1038d34f4dd1545b9c367f50b7064c,
         type: 3}
       propertyPath: _preDayEvent.m_PersistentCalls.m_Calls.Array.data[2].m_Target
@@ -1778,51 +1648,29 @@ PrefabInstance:
       objectReference: {fileID: 172406697}
     - target: {fileID: 3601327984591235619, guid: db1038d34f4dd1545b9c367f50b7064c,
         type: 3}
-      propertyPath: _preDayEvent.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
-      value: Clear
-      objectReference: {fileID: 0}
-    - target: {fileID: 3601327984591235619, guid: db1038d34f4dd1545b9c367f50b7064c,
-        type: 3}
-      propertyPath: _preDayEvent.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
-      objectReference: {fileID: 0}
-    - target: {fileID: 3601327984591235619, guid: db1038d34f4dd1545b9c367f50b7064c,
-        type: 3}
-      propertyPath: _preDayEvent.m_PersistentCalls.m_Calls.Array.data[3].m_Mode
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3601327984591235619, guid: db1038d34f4dd1545b9c367f50b7064c,
-        type: 3}
-      propertyPath: _preDayEvent.m_PersistentCalls.m_Calls.Array.data[3].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 3601327984591235619, guid: db1038d34f4dd1545b9c367f50b7064c,
-        type: 3}
       propertyPath: _preDayEvent.m_PersistentCalls.m_Calls.Array.data[3].m_Target
       value: 
       objectReference: {fileID: 730174367}
     - target: {fileID: 3601327984591235619, guid: db1038d34f4dd1545b9c367f50b7064c,
         type: 3}
-      propertyPath: _preDayEvent.m_PersistentCalls.m_Calls.Array.data[3].m_MethodName
-      value: ResetTopZIndex
-      objectReference: {fileID: 0}
-    - target: {fileID: 3601327984591235619, guid: db1038d34f4dd1545b9c367f50b7064c,
-        type: 3}
-      propertyPath: _preDayEvent.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
-      objectReference: {fileID: 0}
-    - target: {fileID: 3601327984591235619, guid: db1038d34f4dd1545b9c367f50b7064c,
-        type: 3}
-      propertyPath: days.Array.data[1]
+      propertyPath: _newDayEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 11400000, guid: 941ca7b1c654efd4c9f7b0cd73f834ee,
-        type: 2}
+      objectReference: {fileID: 1883884558}
     - target: {fileID: 3601327984591235619, guid: db1038d34f4dd1545b9c367f50b7064c,
         type: 3}
-      propertyPath: days.Array.data[2]
+      propertyPath: _newDayEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
-      objectReference: {fileID: 11400000, guid: 99f7168982fa4684faf183e95d6fa46b,
-        type: 2}
+      objectReference: {fileID: 3190283998296481994}
+    - target: {fileID: 3601327984591235619, guid: db1038d34f4dd1545b9c367f50b7064c,
+        type: 3}
+      propertyPath: _newDayEvent.m_PersistentCalls.m_Calls.Array.data[2].m_Target
+      value: 
+      objectReference: {fileID: 31200825}
+    - target: {fileID: 3601327984591235619, guid: db1038d34f4dd1545b9c367f50b7064c,
+        type: 3}
+      propertyPath: _dayEndEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 798893725}
     - target: {fileID: 5173837722827092759, guid: db1038d34f4dd1545b9c367f50b7064c,
         type: 3}
       propertyPath: m_LocalPosition.x

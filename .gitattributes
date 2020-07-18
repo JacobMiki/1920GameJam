@@ -1,16 +1,18 @@
-# Macro for Unity YAML-based asset files.
+## Macro for Unity YAML-based asset files.
 [attr]unityyaml -text merge=unityyamlmerge diff
 
-# Macro for all binary files that should use Git LFS.
+## Macro for all binary files that should use Git LFS.
 [attr]lfs -text filter=lfs diff=lfs merge=lfs
 
-# Default to auto-normalized line endings.
+## Default to auto-normalized line endings.
 * text=auto
 
-# Code
-*.cs text diff=csharp
+## Code
+*.cs diff=csharp text
+*.cginc text
+*.shader text
 
-# Unity Text Assets
+## Unity Text Assets
 *.meta unityyaml
 *.unity unityyaml
 *.asset unityyaml
@@ -36,7 +38,14 @@
 *.preset unityyaml
 *.asmdef -text diff
 
-# Unity Binary Assets
+# Collapse Unity-generated files on GitHub
+*.asset linguist-generated
+*.mat linguist-generated
+*.meta linguist-generated
+*.prefab linguist-generated
+*.unity linguist-generated
+
+## Unity Binary Assets
 *.cubemap lfs
 *.unitypackage lfs
 # Note: Unity terrain assets must have "-Terrain" suffix.
@@ -44,7 +53,7 @@
 # Note: Unity navmesh assets must have "-NavMesh" suffix.
 *-[Nn]av[Mm]esh.asset -unityyaml lfs
 
-# Image
+## Image
 *.jpg lfs
 *.jpeg lfs
 *.png lfs
@@ -72,7 +81,7 @@
 *.afphoto lfs
 *.afdesign lfs
 
-# Audio
+## Audio
 *.mp3 lfs
 *.ogg lfs
 *.wav lfs
@@ -83,7 +92,7 @@
 *.s3m lfs
 *.xm lfs
 
-# Video
+## Video
 *.mov lfs
 *.avi lfs
 *.asf lfs
@@ -94,7 +103,7 @@
 *.ogv lfs
 *.wmv lfs
 
-# 3D
+## 3D
 *.fbx lfs
 *.obj lfs
 *.max lfs
@@ -113,14 +122,14 @@
 *.bin lfs
 *.glb lfs
 
-# Executables
+## Executables
 *.exe lfs
 *.dll lfs
 *.so lfs
 *.pdb lfs
 *.mdb lfs
 
-# Packaging
+## Packaging
 *.zip lfs
 *.7z lfs
 *.gz lfs
