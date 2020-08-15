@@ -1,0 +1,16 @@
+{
+"companyName": "THETEAM",
+"productName": "Kryptograf 1920",
+"productVersion": "1.1.0",
+"dataUrl": "07ce712ba1bd56af75cf633e187566d4.unityweb",
+"wasmCodeUrl": "a6a9e5006661505baf3486bed01dd60f.unityweb",
+"wasmFrameworkUrl": "f5abfc2d64a5d3246f1bf87166e6fb58.unityweb",
+"graphicsAPI": ["WebGL 2.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Light",
+"backgroundColor": "#FFFFFF",
+"cacheControl": {"default": "must-revalidate"},
+"developmentBuild": false,
+"multithreading": false,
+"unityVersion": "2019.4.1f1"
+}
